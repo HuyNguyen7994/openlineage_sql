@@ -19,7 +19,7 @@ jobs:
       uses: Swatinem/rust-cache@v2
 
     - name: Run tests
-      run: cargo test --project openlineage_sql
+      run: cargo test --package openlineage_sql
 
   test-python:
     name: Test Python interface
